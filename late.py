@@ -1,6 +1,7 @@
 from twilio.rest import Client
 import sys, os
 
+#account SID and auth token have been stored as environment variables
 account_sid = os.environ['TWILIO_ACCOUNT_SID']
 auth_token = os.environ['TWILIO_AUTH_TOKEN']
 
